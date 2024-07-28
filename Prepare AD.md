@@ -18,7 +18,7 @@
 ```powershell
 .\Setup.exe /IAcceptExchangeServerLicenseTerms_DiagnosticDataOFF /PrepareAD /OrganizationName:"yourOrg"
 #(if Exchange organization already exist in your environment, leave OrganizationName parameter)
-.\Setup.exe /IAcceptExchangeServerLicenseTerms_DiagnosticDataOFF /PrepareAD)
+#.\Setup.exe /IAcceptExchangeServerLicenseTerms_DiagnosticDataOFF /PrepareAD)
 ```
 6) Prepare Domain:
 ```powershell
